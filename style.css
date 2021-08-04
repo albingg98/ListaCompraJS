@@ -1,0 +1,116 @@
+html {
+    font-size: 62.5%; 
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-size: 16px; /* 1rem = 10px */
+    background-color: #2F3238;
+    font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* ----------------------------------------------------------------- */
+/* AAECE7 */
+.caja {
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.alerta {
+    color: tomato;
+    padding-top: 20px;
+}
+
+h1 {
+    margin: 0 auto;
+    padding-top: 20px;
+    color: #e8e9e8;
+}
+
+input {
+    width: 60%;
+    margin: 30px 0;
+    color: #e8e9e8;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #e8e9e8;
+    border-radius: 0;
+    font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 3px solid red;
+}
+
+.botonAñadir, .botonSave {
+    color: #e8e9e8;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: cornflowerblue;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-shadow: 0 10px 20px 0px rgb(34, 51, 82);
+}
+
+.botonAñadir:hover, .botonSave:hover {
+    box-shadow: 0 0px 20px 0px rgb(69, 103, 167);
+}
+
+ul {
+    width: 80%;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #9e99b3;
+    text-transform: uppercase;
+    
+}
+
+.iconoE {
+    color: #EBDC0E;
+}
+
+.iconoB {
+    color: tomato;
+}
+
+.botonEditar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.botonBorrar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.borrarElementos {
+    color: rgb(34, 175, 88);
+}
+
+.borrarElementos:hover {
+    cursor: pointer;
+}
+
